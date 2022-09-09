@@ -1,0 +1,124 @@
+/* media query  */
+@media(max-width:1150px)
+{
+    
+      /* projects  */
+      .project-ineuron{
+          display: flex;
+          flex-direction: column;
+    }
+
+}
+
+
+ @media(max-width:1050px)
+ {
+    /* navbar  */
+    .navbar-items{
+        font-size: 20px;
+        }
+
+    /* about me  */
+    .about-img-content{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .about-content h1{
+        margin-top: 2vh;    
+    }
+
+    /* education  */
+    .education-content{
+        grid-template-columns: 1fr 1fr;
+    }
+    .education-list h1{
+        font-size: 20px;
+    }
+    .education-list h2{
+        font-size: 15px;
+    }
+
+    /* contact details last one  */
+    .contact-me{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-top: 5vh; 
+        padding-bottom: 4vh;
+       
+    }
+    .form-message-head{
+        margin-top: 4vh;
+    }
+    .text-email{
+        display: flex;
+        justify-content: flex-start;
+       
+    }
+
+
+
+ }
+
+ /* new media query  */
+ @media(max-width:700px)
+ {
+
+    /* header-main  */
+    .header-main h2{
+        font-size: 30px;
+        }
+        .header-main h1{
+            font-size: 45px;
+        }
+        .header-main .btn{
+            font-size: 20px;
+            padding: 13px 22px;
+        }
+
+
+    /* navbar  */
+    .navbar-items{
+        font-size: 15px;
+        }
+
+    /* skills and experience  */
+    .skill-experience{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    /* projects */
+
+    .project-ineuron i , .project-ineuron a{
+        font-size: 15px;
+    }
+
+ }
+  
+
+ /* new one  */
+ @media(max-width:650px)
+ {
+   /* navbar  */
+   .navbar-items{
+    font-size: 13px;
+    }
+
+    /* internship  */
+    .exp-intern-main{
+        grid-template-columns: 1fr;
+        
+    }
+
+    /* projects  */
+    .projects-main{
+      grid-template-columns: repeat(2 ,1fr);
+    }
+
+    /* social media  */
+    .social-media{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+ }
