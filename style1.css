@@ -23,7 +23,12 @@
         grid-template-columns: 1fr;
         align-items: center;
     }
+    .about-img{
+        justify-self: center
+    }
     .about-content h1{
+        /* justify-self: center; */
+        text-align: center;
         margin-top: 2vh;    
     }
 
