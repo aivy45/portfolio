@@ -122,7 +122,7 @@ opacity: 0.8;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    background-image: conic-gradient(#ff00bb 0deg,#ff00bb 90deg, transparent 130deg , transparent 180deg , #4530FF 270deg , transparent 310deg , transparent 360deg);
+    background-image: conic-gradient(rgb(48, 149, 226) 0deg,rgb(19, 107, 175) 90deg, transparent 130deg , transparent 180deg , #f0891b 270deg , transparent 310deg , transparent 360deg);
     height: 30000px;
     width: 4000px;
     animation: rotate 2s infinite;
